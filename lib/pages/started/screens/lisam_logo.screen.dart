@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lisam_app/constans/colors.dart';
 
 class LisamLogoScreen extends StatelessWidget {
   const LisamLogoScreen({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class LisamLogoScreen extends StatelessWidget {
             'Bienvenido a LISAM',
             style: TextStyle(
                 color: Colors.white70,
-                fontSize: 28,
+                fontSize: 35,
                 fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 20),

@@ -16,7 +16,7 @@ class StartedPage extends StatelessWidget {
         backgroundColor: mainColor,
         body: SlideShow(
           slides: pages,
-          primaryColor: Colors.pink,
+          primaryColor: accentColor,
         ));
   }
 }

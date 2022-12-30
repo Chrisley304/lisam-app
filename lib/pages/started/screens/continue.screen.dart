@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lisam_app/config/routes.dart';
+import 'package:lisam_app/constans/colors.dart';
 import 'package:lisam_app/core/services/user_preferences.service.dart';
 
 class ContinueScreen extends StatelessWidget {
@@ -18,9 +19,9 @@ class ContinueScreen extends StatelessWidget {
           const Text(
             'Powered by',
             style: TextStyle(
-              color: Colors.blueGrey,
-              fontWeight: FontWeight.bold,
-              fontSize: 15,
+              color: Colors.white70,
+              // fontWeight: FontWeight.bold,
+              fontSize: 17,
             ),
           ),
           const SizedBox(
@@ -35,9 +36,9 @@ class ContinueScreen extends StatelessWidget {
             child: ElevatedButton(
               onPressed: () => goToCaptureSign(context),
               style: ElevatedButton.styleFrom(
-                primary: Colors.pink,
+                primary: accentColor,
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 90, vertical: 15),
+                    const EdgeInsets.symmetric(horizontal: 90, vertical: 20),
               ),
               child: const Text('Continuar'),
             ),
