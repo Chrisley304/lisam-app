@@ -14,14 +14,14 @@ class LisamLogoScreen extends StatelessWidget {
           const Text(
             'Bienvenido a LISAM',
             style: TextStyle(
-                color: Colors.blueGrey,
+                color: Colors.white70,
                 fontSize: 28,
                 fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 20),
           Image.asset(
-            'assets/LISAM_logo.png',
-            height: 300,
+            'assets/logos/LISAM_blanco.png',
+            height: 400,
           )
         ],
       ),

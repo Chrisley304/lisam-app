@@ -73,6 +73,9 @@ flutter:
   assets:
     - assets/SIAFI_logo.png
     - assets/LISAM_logo.png
+    - assets/logos/LISAM_negro.png
+    - assets/logos/LISAM_blanco.png
+    - assets/logos/LISAM_icon_rounded.png
     - assets/images/phone_p.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -103,6 +106,7 @@ flutter:
 
 
 flutter_icons:
-  image_path: 'assets/LISAM_logo.png'
+  image_path: 'assets/logos/LISAM_icon_rounded.png'
   ios: true
   android: true
+  web: true
