@@ -87,9 +87,13 @@ class _CaptureSignPageState extends State<CaptureSignPage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          CaptureSignButton(
-                            onPressed: captureSign,
-                            isLoading: isLoading,
+                          Container(
+                            height: 75,
+                            width: 225,
+                            child: CaptureSignButton(
+                              onPressed: captureSign,
+                              isLoading: isLoading,
+                            ),
                           ),
                         ],
                       ),
